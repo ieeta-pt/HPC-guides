@@ -28,9 +28,6 @@ ssh YourUniversityUsername@hpc.ieeta.pt
 ```
 3. **Enter Your Password:** When prompted, enter your University of Aveiro password.
 
-### First-Time Users
-For first-time users, it's recommended to change your password upon the first login for security purposes.
-
 ## Further Assistance
 
-If you encounter any issues or have queries regarding the access process, please feel free to reach out to the HPC support team for assistance.
+If you encounter any issues or have queries regarding the access process, please feel free to reach out to the [HPC support team](about.md#support-team) for assistance.
