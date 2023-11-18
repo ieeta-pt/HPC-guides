@@ -1,4 +1,6 @@
-# HPC-guides
+# [HPC-guides](https://ieeta-pt.github.io/HPC-guides/)
+
+Guides webpage: https://ieeta-pt.github.io/HPC-guides/
 
 This repository hosts user guides for utilizing the IEETA HPC.
 
