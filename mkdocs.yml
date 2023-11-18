@@ -10,10 +10,10 @@ nav:
     - Software packages: detail_material/software_packages.md
     - Job management: detail_material/job_management.md
     - Account management: detail_material/account_management.md
-  - Examples:
-    - Deep Learning (GPU):
-      - MNIST example: examples/dl/mnist.md
-    - Scientific Computing (CPU):
+  - Deep Learning (GPU) Examples:
+    - MNIST example: examples/dl/mnist.md
+  - Scientific Computing (CPU) Examples:
+    - DNA sequencing: examples/sc/dna.md
     
 theme: readthedocs
     

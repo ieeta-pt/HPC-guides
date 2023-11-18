@@ -15,3 +15,4 @@ In this page you can find documentation on how to use the IEETA HPC, including i
     - **Deep Learning**
         * [MNIST Example](examples/dl/mnist.md)
     - **Scientific Computing**
+        * [DNA Sequencing Example](examples/sc/dna.md)
