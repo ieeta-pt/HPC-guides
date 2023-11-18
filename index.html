@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="None" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="None" /><link rel="canonical" href="https://ieeta-pt.github.io/HPC-guides/" />
       <link rel="shortcut icon" href="img/favicon.ico" />
     <title>IEETA HPC - User Guides</title>
     <link rel="stylesheet" href="css/theme.css" />
@@ -12,9 +12,9 @@
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Welcome to IEETA HPC";
+        var mkdocs_page_name = "Home";
         var mkdocs_page_input_path = "index.md";
-        var mkdocs_page_url = null;
+        var mkdocs_page_url = "/HPC-guides/";
       </script>
     
     <!--[if lt IE 9]>
@@ -40,22 +40,43 @@
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
-                <li class="toctree-l1 current"><a class="reference internal current" href=".">Welcome to IEETA HPC</a>
+                <li class="toctree-l1 current"><a class="reference internal current" href=".">Home</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#about-ieeta-hpc">About IEETA HPC</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#project-layout">Project layout</a>
+    <li class="toctree-l2"><a class="reference internal" href="#contents">Contents</a>
     </li>
     </ul>
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="about/">About IEETA HPC</a>
+                <li class="toctree-l1"><a class="reference internal" href="about/">About</a>
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="how_to_access/">How to access</a>
+                <li class="toctree-l1"><a class="reference internal" href="how_to_access/">How to Access</a>
                 </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="quick_start/">Quick Start</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Detailed Material</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="detail_material/software_packages/">Software packages</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="detail_material/job_management/">Job management</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="detail_material/account_management/">Account management</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Deep Learning (GPU) Examples</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="examples/dl/mnist/">MNIST example</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Scientific Computing (CPU) Examples</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="examples/sc/dna/">DNA sequencing</a>
+                  </li>
               </ul>
       </div>
     </div>
@@ -71,7 +92,7 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="." class="icon icon-home" aria-label="Docs"></a></li>
-      <li class="breadcrumb-item active">Welcome to IEETA HPC</li>
+      <li class="breadcrumb-item active">Home</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -80,26 +101,36 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="welcome-to-ieeta-hpc">Welcome to IEETA HPC</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="about-ieeta-hpc">About IEETA HPC</h2>
+                <h1 id="welcome-to-documentation-for-ieeta-hpc">Welcome to documentation for IEETA HPC</h1>
+<p>In this page you can find documentation on how to use the IEETA HPC, including information on how to submit and manage jobs in the best possible way.</p>
+<h2 id="contents">Contents</h2>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li><a href="about/">About</a></li>
+<li><a href="how_to_access/">How to Access</a></li>
+<li><a href="quick_start/">Quick start</a></li>
+<li><strong>Detailed Material</strong><ul>
+<li><a href="detail_material/software_packages/">Software packages</a></li>
+<li><a href="detail_material/job_management/">Job management</a></li>
+<li><a href="detail_material/account_management/">Account management</a></li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre>
+</li>
+<li><strong>Examples</strong><ul>
+<li><strong>Deep Learning</strong><ul>
+<li><a href="examples/dl/mnist/">MNIST Example</a></li>
+</ul>
+</li>
+<li><strong>Scientific Computing</strong><ul>
+<li><a href="examples/sc/dna/">DNA Sequencing Example</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="about/" class="btn btn-neutral float-right" title="About IEETA HPC">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="about/" class="btn btn-neutral float-right" title="About">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -143,5 +174,5 @@ docs/
 
 <!--
 MkDocs version : 1.5.3
-Build Date UTC : 2023-11-18 17:26:55.440333+00:00
+Build Date UTC : 2023-11-18 18:09:57.508351+00:00
 -->
