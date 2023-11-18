@@ -1,4 +1,19 @@
 site_name: IEETA HPC - User Guides
+site_url: https://ieeta-pt.github.io/HPC-guides
 
-theme:
-  name: readthedocs
+nav:
+  - Home: index.md
+  - About: about.md
+  - How to Access: how_to_access.md
+  - Quick Start: quick_start.md
+  - Detailed Material:
+    - Software packages: detail_material/software_packages.md
+    - Job management: detail_material/job_management.md
+    - Account management: detail_material/account_management.md
+  - Examples:
+    - Deep Learning (GPU):
+      - MNIST example: examples/dl/mnist.md
+    - Scientific Computing (CPU):
+    
+theme: readthedocs
+    
