@@ -1,6 +1,7 @@
 site_name: IEETA HPC - User Guides
 site_url: https://ieeta-pt.github.io/HPC-guides
 
+
 nav:
   - Home: index.md
   - About: about.md
@@ -14,8 +15,10 @@ nav:
     - MNIST example: examples/dl/mnist.md
   - Scientific Computing (CPU) Examples:
     - DNA sequencing: examples/sc/dna.md
+    - R: examples/sc/r.md
     
 theme: readthedocs
 
 site_author: Tiago Almeida (tiagomeloalmeida@ua.pt)
 copyright: Copyright 2023, Pelouro de Infraestrutura - IEETA UA.
+
