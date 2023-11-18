@@ -3,15 +3,22 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Tiago Almeida (tiagomeloalmeida@ua.pt)" />
-      <link rel="shortcut icon" href="/HPC-guides/img/favicon.ico" />
-    <title>IEETA HPC - User Guides</title>
-    <link rel="stylesheet" href="/HPC-guides/css/theme.css" />
-    <link rel="stylesheet" href="/HPC-guides/css/theme_extra.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Tiago Almeida (tiagomeloalmeida@ua.pt)" /><link rel="canonical" href="https://ieeta-pt.github.io/HPC-guides/examples/sc/r/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>R - IEETA HPC - User Guides</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
+      <script>
+        // Current page data
+        var mkdocs_page_name = "R";
+        var mkdocs_page_input_path = "examples/sc/r.md";
+        var mkdocs_page_url = "/HPC-guides/examples/sc/r/";
+      </script>
+    
     <!--[if lt IE 9]>
-      <script src="/HPC-guides/js/html5shiv.min.js"></script>
+      <script src="../../../js/html5shiv.min.js"></script>
     <![endif]-->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
       <script>hljs.highlightAll();</script> 
@@ -23,9 +30,9 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-          <a href="/HPC-guides/." class="icon icon-home"> IEETA HPC - User Guides
+          <a href="../../.." class="icon icon-home"> IEETA HPC - User Guides
         </a><div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="/HPC-guides//search.html" method="get">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
       <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
   </form>
 </div>
@@ -33,40 +40,40 @@
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="/HPC-guides/.">Home</a>
+                <li class="toctree-l1"><a class="reference internal" href="../../..">Home</a>
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="/HPC-guides/about/">About</a>
+                <li class="toctree-l1"><a class="reference internal" href="../../../about/">About</a>
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="/HPC-guides/how_to_access/">How to Access</a>
+                <li class="toctree-l1"><a class="reference internal" href="../../../how_to_access/">How to Access</a>
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="/HPC-guides/quick_start/">Quick Start</a>
+                <li class="toctree-l1"><a class="reference internal" href="../../../quick_start/">Quick Start</a>
                 </li>
               </ul>
               <p class="caption"><span class="caption-text">Detailed Material</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="/HPC-guides/detail_material/software_packages/">Software packages</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../detail_material/software_packages/">Software packages</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="/HPC-guides/detail_material/job_management/">Job management</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../detail_material/job_management/">Job management</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="/HPC-guides/detail_material/account_management/">Account management</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../detail_material/account_management/">Account management</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Deep Learning (GPU) Examples</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="/HPC-guides/examples/dl/mnist/">MNIST example</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../dl/mnist/">MNIST example</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Scientific Computing (CPU) Examples</span></p>
-              <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="/HPC-guides/examples/sc/dna/">DNA sequencing</a>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../dna/">DNA sequencing</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="/HPC-guides/examples/sc/r/">R</a>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">R</a>
                   </li>
               </ul>
       </div>
@@ -76,13 +83,15 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
       <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="/HPC-guides/.">IEETA HPC - User Guides</a>
+          <a href="../../..">IEETA HPC - User Guides</a>
         
       </nav>
       <div class="wy-nav-content">
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="/HPC-guides/." class="icon icon-home" aria-label="Docs"></a></li>
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Scientific Computing (CPU) Examples</li>
+      <li class="breadcrumb-item active">R</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -91,14 +100,13 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-
-  <h1 id="404-page-not-found">404</h1>
-
-  <p><strong>Page not found</strong></p>
-
-
+                
+              
             </div>
           </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../dna/" class="btn btn-neutral float-left" title="DNA sequencing"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
 
   <hr/>
 
@@ -121,14 +129,16 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
+      <span><a href="../dna/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
     
   </span>
 </div>
-    <script src="/HPC-guides/js/jquery-3.6.0.min.js"></script>
-    <script>var base_url = "/HPC-guides/";</script>
-    <script src="/HPC-guides/js/theme_extra.js"></script>
-    <script src="/HPC-guides/js/theme.js"></script>
-      <script src="/HPC-guides/search/main.js"></script>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
     <script>
         jQuery(function () {
             SphinxRtdTheme.Navigation.enable(true);

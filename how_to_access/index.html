@@ -50,6 +50,26 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="./">How to Access</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#eligibility-and-requesting-access">Eligibility and Requesting Access</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#who-can-access">Who Can Access</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#how-to-request-access">How to Request Access</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#connecting-to-the-hpc">Connecting to the HPC</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#ssh-connection-steps">SSH Connection Steps</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#first-time-users">First-Time Users</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#further-assistance">Further Assistance</a>
+    </li>
     </ul>
                 </li>
               </ul>
@@ -75,6 +95,8 @@
               <ul>
                   <li class="toctree-l1"><a class="reference internal" href="../examples/sc/dna/">DNA sequencing</a>
                   </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../examples/sc/r/">R</a>
+                  </li>
               </ul>
       </div>
     </div>
@@ -99,7 +121,35 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="how-to-access">How to access</h1>
+                <h1 id="how-to-access">How to Access</h1>
+<h2 id="overview">Overview</h2>
+<p>The IEETA HPC facility primarily serves researchers at IEETA and students of the University of Aveiro. This guide outlines the process for obtaining access to the HPC resources and the method for connecting to the system.</p>
+<h2 id="eligibility-and-requesting-access">Eligibility and Requesting Access</h2>
+<h3 id="who-can-access">Who Can Access</h3>
+<ul>
+<li><strong>Researchers at IEETA:</strong> Faculty members, postdoctoral researchers, and research staff affiliated with IEETA are eligible to access the HPC resources.</li>
+<li><strong>Students at the University of Aveiro:</strong> Undergraduate and graduate students enrolled at the University of Aveiro with IEETA supervisors are eligible to use the HPC for academic and research purposes.</li>
+</ul>
+<h3 id="how-to-request-access">How to Request Access</h3>
+<p>To request access to the IEETA HPC, eligible users should follow these steps:</p>
+<p><strong>Send an Access Request Email:</strong> Submit an email to the <a href="../about/#support-team">HPC support team</a>. The request should include your full name, affiliation, and a brief description of your computational needs.</p>
+<h2 id="connecting-to-the-hpc">Connecting to the HPC</h2>
+<p>Once your access is granted, you can connect to the HPC using SSH (Secure Shell) with your universal University of Aveiro user credentials.
+<strong>Note:</strong> Access to the IEETA HPC (hpc.ieeta.pt) is restricted to the University of Aveiro network, including Eduroam. Ensure you are connected to this network for successful access.</p>
+<h3 id="ssh-connection-steps">SSH Connection Steps</h3>
+<ol>
+<li><strong>Open a Terminal:</strong> On your local machine, open a terminal window.</li>
+<li><strong>Initiate SSH Connection:</strong> Use the following SSH command, replacing <code>YourUniversityUsername</code> with your actual username:</li>
+</ol>
+<pre><code class="language-bash">ssh YourUniversityUsername@hpc.ieeta.pt
+</code></pre>
+<ol>
+<li><strong>Enter Your Password:</strong> When prompted, enter your University of Aveiro password.</li>
+</ol>
+<h3 id="first-time-users">First-Time Users</h3>
+<p>For first-time users, it's recommended to change your password upon the first login for security purposes.</p>
+<h2 id="further-assistance">Further Assistance</h2>
+<p>If you encounter any issues or have queries regarding the access process, please feel free to reach out to the HPC support team for assistance.</p>
               
             </div>
           </div><footer>
