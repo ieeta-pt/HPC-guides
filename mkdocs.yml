@@ -16,4 +16,6 @@ nav:
     - DNA sequencing: examples/sc/dna.md
     
 theme: readthedocs
-    
+
+site_author: Tiago Almeida (tiagomeloalmeida@ua.pt)
+copyright: Copyright 2023, Pelouro de Infraestrutura - IEETA UA.
