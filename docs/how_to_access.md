@@ -11,13 +11,12 @@ The IEETA HPC facility primarily serves researchers at IEETA and students of the
 - **Students at the University of Aveiro:** Undergraduate and graduate students enrolled at the University of Aveiro with IEETA supervisors are eligible to use the HPC for academic and research purposes.
 
 ### How to Request Access
-To request access to the IEETA HPC, eligible users should follow these steps:
-
-**Send an Access Request Email:** Submit an email to the [HPC support team](about.md#support-team). The request should include your full name, affiliation, and a brief description of your computational needs.
+To request access to the IEETA HPC, eligible users should send an email to the [HPC support team](about.md#support-team). The request should include your name, affiliation, and a brief description of your computational needs. 
 
 ## Connecting to the HPC
 
 Once your access is granted, you can connect to the HPC using SSH (Secure Shell) with your universal University of Aveiro user credentials.
+
 **Note:** Access to the IEETA HPC (hpc.ieeta.pt) is restricted to the University of Aveiro network, including Eduroam. Ensure you are connected to this network for successful access.
 
 ### SSH Connection Steps

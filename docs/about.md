@@ -19,7 +19,7 @@ The IEETA HPC facility features a robust hardware configuration, including:
 - **GPU Nodes:** TODO
 - **Storage:** TODO
 
-For managing its access we mainly rely on [slurm](https://slurm.schedmd.com/documentation.html) 
+The management of access to the cluster is primarily conducted through [Slurm](https://slurm.schedmd.com/documentation.html).
 
 ## Support Team
 
