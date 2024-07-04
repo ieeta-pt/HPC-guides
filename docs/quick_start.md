@@ -68,7 +68,7 @@ By default since no partition was defined the job will run under the default par
 
 ```bash
   $ sinfo
-```bash
+```
 
 ## 4. Submit the job
 
@@ -78,7 +78,7 @@ To submit the job, you should run the following command:
 
   $ sbatch script_trainer.sh
   Submitted batch job 144
-
+```
 You can check the job status using the following command:
 
 ```bash
