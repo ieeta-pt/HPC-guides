@@ -11,7 +11,7 @@ The IEETA HPC facility primarily serves researchers at IEETA and students of the
 - **Students at the University of Aveiro:** Undergraduate and graduate students enrolled at the University of Aveiro with IEETA supervisors are eligible to use the HPC for academic and research purposes.
 
 ### How to Request Access
-To request access to the IEETA HPC, eligible users should send an email to the [HPC support team](about.md#support-team). The request should include your name, affiliation, and a brief description of your computational needs. 
+To request access to the IEETA HPC, eligible users should fill the following form [https://forms.gle/WvRmjL1krNykzLnX7](https://forms.gle/WvRmjL1krNykzLnX7)
 
 ## Connecting to the HPC
 
