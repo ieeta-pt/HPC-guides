@@ -8,6 +8,7 @@ nav:
   - How to Access: how_to_access.md
   - Quick Start: quick_start.md
   - Detailed Material:
+    - Nodes: detail_material/nodes.md
     - Software packages: detail_material/software_packages.md
     - Job management: detail_material/job_management.md
     - Account management: detail_material/account_management.md
