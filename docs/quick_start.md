@@ -4,7 +4,7 @@ In this page you can find a quick start guide on how to use IEETA cluster (Pleia
 
 ## 1. Access IEETA cluster (Pleiades)
 
-Access the cluster via SSH using the credentials provided to you by email. If you do not have access yet, please refer to the `how_to_access.md` page.
+Access the cluster via SSH using the credentials provided to you by email. If you do not have access yet, please refer to the [How to Access](how_to_access.md) page.
 
 ```bash
 $ ssh user@pleiades.ieeta.pt
