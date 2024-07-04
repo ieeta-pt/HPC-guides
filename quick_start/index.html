@@ -160,13 +160,14 @@ deactivate
 2. Comands that will be executed on the destination node.</p>
 <p>As an example, in the first part of the script, we define the job name, the output file and the requested resources (1 GPU, 2 CPUs and 4GB RAM). Then, in the second part, we define the tasks of the job.</p>
 <p>By default since no partition was defined the job will run under the default partitaion that in this cluster is the gpu partition, you can check which partitions and nodes are available with:</p>
-<p><code>bash
-  $ sinfo</code>bash</p>
+<pre><code class="language-bash">  $ sinfo
+</code></pre>
 <h2 id="4-submit-the-job">4. Submit the job</h2>
 <p>To submit the job, you should run the following command:</p>
-<p>```bash</p>
-<p>$ sbatch script_trainer.sh
-  Submitted batch job 144</p>
+<pre><code class="language-bash">
+  $ sbatch script_trainer.sh
+  Submitted batch job 144
+</code></pre>
 <p>You can check the job status using the following command:</p>
 <p><code>bash
   $ squeue</code>bash</p>
