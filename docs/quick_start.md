@@ -75,12 +75,11 @@ By default since no partition was defined the job will run under the default par
 To submit the job, you should run the following command:
 
 ```bash
-
-  $ sbatch script_trainer.sh
-  Submitted batch job 144
+$ sbatch script_trainer.sh
+Submitted batch job 144
 ```
 You can check the job status using the following command:
 
 ```bash
-  $ squeue
-```bash
+$ squeue
+```
