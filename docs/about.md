@@ -1,25 +1,15 @@
-# About IEETA HPC
+# About Pleiades
 
-This page is dedicated to providing you with a comprehensive understanding of the IEETA HPC facility, its purpose, capabilities, and the unique opportunities it offers for research and computation-intensive projects. 
+This page is dedicated to providing a comprehensive understanding of Pleiades, the name of IEETA's HPC cluster. Here, you will learn about its purpose, capabilities, and the unique opportunities it offers for research and computation-intensive projects.
 
 ## Objectives
 
-- **Support Advanced Research:** The primary objective of IEETA HPC is to enable and accelerate research that requires substantial computational resources.
-- **Offer an open and unified computation platform:** By aggregating heterogenous computation devices under the same cluster, we can facilitate in a unified way and fair access to all of our reshearchers.
+- **Support Advanced Research:** The primary objective of Pleiades is to enable and accelerate research that requires substantial computational resources.
+- **Offer an open and unified computation platform:** By aggregating heterogenous computation devices under the same cluster, we can facilitate in a unified way fair access to all of our reshearchers.
 
 ## Capabilities
 
-IEETA HPC offers a range of computing resources, including traditional CPU clusters and GPU-enabled nodes for deep learning tasks. 
-
-## Cluster Configuration
-
-The IEETA HPC facility features a robust hardware configuration, including:
-
-- **Compute Nodes:** TODO
-- **GPU Nodes:** TODO
-- **Storage:** TODO
-
-The management of access to the cluster is primarily conducted through [Slurm](https://slurm.schedmd.com/documentation.html).
+Pleiades offers a range of computing resources, including traditional **CPU** and **GPU**-enabled nodes. 
 
 ## Support Team
 
