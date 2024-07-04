@@ -1,4 +1,4 @@
-site_name: IEETA HPC - User Guides
+site_name: Pleiades - IEETA cluster
 site_url: https://ieeta-pt.github.io/HPC-guides
 
 
@@ -22,5 +22,5 @@ nav:
 theme: readthedocs
 
 site_author: Tiago Almeida (tiagomeloalmeida@ua.pt)
-copyright: Copyright 2023, Pelouro de Infraestrutura - IEETA UA.
+copyright: Copyright 2024, Pelouro de Infraestrutura - IEETA UA.
 
