@@ -31,6 +31,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://ieeta-pt.github.io/HPC-guides/detail_material/nodes/</loc>
+         <lastmod>2024-07-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://ieeta-pt.github.io/HPC-guides/detail_material/software_packages/</loc>
          <lastmod>2024-07-04</lastmod>
          <changefreq>daily</changefreq>
