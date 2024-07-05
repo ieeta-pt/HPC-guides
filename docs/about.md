@@ -11,6 +11,10 @@ This page is dedicated to providing a comprehensive understanding of Pleiades, t
 
 Pleiades offers a range of computing resources, including traditional **CPU** and **GPU**-enabled nodes. 
 
+## Why this name
+
+(TODO: short description of the name)
+
 ## Support Team
 
 Currently the IEETA HPC is responsability of the "Pelouro de Infraestrutra" team:
