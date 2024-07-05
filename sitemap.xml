@@ -46,6 +46,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://ieeta-pt.github.io/HPC-guides/examples/dl/cuda/</loc>
+         <lastmod>2024-07-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://ieeta-pt.github.io/HPC-guides/examples/dl/mnist/</loc>
          <lastmod>2024-07-05</lastmod>
          <changefreq>daily</changefreq>
