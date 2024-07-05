@@ -21,7 +21,7 @@ Furthermore, to aid in acclimatization with the HPC stack, we have also included
 - **Deep Learning (GPU) Examples**
     * [Transformers](examples/dl/transformers.md)
     * [Cuda example](examples/dl/cuda.md)
-    * [MNIST Example](examples/dl/mnist.md)
+    * [MNIST Example](examples/dl/mnist.md) **TODO**
 - **Scientific Computing (CPU) Examples**
-    * [DNA Sequencing Example](examples/sc/dna.md)
-    * [R Example](examples/sc/r.md)
+    * [DNA Sequencing Example](examples/sc/dna.md) **TODO**
+    * [R Example](examples/sc/r.md) **TODO**
