@@ -2,62 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://ieeta-pt.github.io/HPC-guides/</loc>
-         <lastmod>2024-07-04</lastmod>
+         <lastmod>2024-07-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ieeta-pt.github.io/HPC-guides/about/</loc>
-         <lastmod>2024-07-04</lastmod>
+         <lastmod>2024-07-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ieeta-pt.github.io/HPC-guides/how_to_access/</loc>
-         <lastmod>2024-07-04</lastmod>
+         <lastmod>2024-07-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ieeta-pt.github.io/HPC-guides/quick_start/</loc>
-         <lastmod>2024-07-04</lastmod>
+         <lastmod>2024-07-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ieeta-pt.github.io/HPC-guides/detail_material/account_management/</loc>
-         <lastmod>2024-07-04</lastmod>
+         <lastmod>2024-07-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ieeta-pt.github.io/HPC-guides/detail_material/job_management/</loc>
-         <lastmod>2024-07-04</lastmod>
+         <lastmod>2024-07-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ieeta-pt.github.io/HPC-guides/detail_material/nodes/</loc>
-         <lastmod>2024-07-04</lastmod>
+         <lastmod>2024-07-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ieeta-pt.github.io/HPC-guides/detail_material/software_packages/</loc>
-         <lastmod>2024-07-04</lastmod>
+         <lastmod>2024-07-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ieeta-pt.github.io/HPC-guides/examples/dl/mnist/</loc>
-         <lastmod>2024-07-04</lastmod>
+         <lastmod>2024-07-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ieeta-pt.github.io/HPC-guides/examples/dl/transformers/</loc>
-         <lastmod>2024-07-04</lastmod>
+         <lastmod>2024-07-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ieeta-pt.github.io/HPC-guides/examples/sc/dna/</loc>
-         <lastmod>2024-07-04</lastmod>
+         <lastmod>2024-07-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ieeta-pt.github.io/HPC-guides/examples/sc/r/</loc>
-         <lastmod>2024-07-04</lastmod>
+         <lastmod>2024-07-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
