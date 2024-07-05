@@ -21,8 +21,8 @@ def tokenize_function(examples):
 
 tokenized_datasets = dataset.map(tokenize_function, batched=True)
 
-train_dataset = tokenized_datasets["train"].select(range(20000))
-eval_dataset = tokenized_datasets["test"].select(range(20000))
+train_dataset = tokenized_datasets["train"].select(range(1000))
+eval_dataset = tokenized_datasets["test"].select(range(1000))
 
 model = AutoModelForSequenceClassification.from_pretrained("bert-base-cased", num_labels=5)#, cache_dir=tmpdir)
 
