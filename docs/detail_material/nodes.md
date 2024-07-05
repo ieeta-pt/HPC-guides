@@ -10,7 +10,7 @@ We are currently in a testing phase, and nodes will be gradually added or migrat
   - RAM: 16GB
   - GPU-0: A2000
   - Temporal local storage: 512GB nvme (/tmp/your-job)
-  - Slurm GPU resource name: **rtx-nvidia-a2000**
+  - Slurm GPU resource name: **nvidia-rtx-a2000**
 
 ### dl-srv-03:
   - Type: Asus Server
@@ -19,7 +19,7 @@ We are currently in a testing phase, and nodes will be gradually added or migrat
   - GPU-0: A6000
   - GPU-1: A6000
   - Temporal local storage: 512GB nvme (/tmp/your-job)
-  - Slurm GPU resource name: **rtx-nvidia-a6000**
+  - Slurm GPU resource name: **nvidia-rtx-a6000**
 
 (More to be added in the future)
 
