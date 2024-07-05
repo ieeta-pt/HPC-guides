@@ -32,6 +32,7 @@ were are specifically requestion for a A6000 gpu (`--gres=gpu:nvidia-rtx-a6000:1
 
 ```bash
 $ sbatch hf_trainer.sh
+Submitted batch job 95
 ```
 
 ```bash
