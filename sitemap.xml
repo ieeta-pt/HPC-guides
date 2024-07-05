@@ -26,6 +26,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://ieeta-pt.github.io/HPC-guides/detail_material/cuda/</loc>
+         <lastmod>2024-07-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://ieeta-pt.github.io/HPC-guides/detail_material/job_management/</loc>
          <lastmod>2024-07-05</lastmod>
          <changefreq>daily</changefreq>
