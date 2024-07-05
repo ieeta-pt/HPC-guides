@@ -36,6 +36,7 @@ The launch_cuda.sh script contains the necessary code to submit the Slurm job wh
 
 ```bash
 $ sbatch lunch_cuda.sh
+Submitted batch job 93
 ```
 
 Check your directory for the output file and view its contents:
