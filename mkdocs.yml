@@ -12,8 +12,9 @@ nav:
     - Software packages: detail_material/software_packages.md
     - Job management: detail_material/job_management.md
     - Account management: detail_material/account_management.md
-  - Deep Learning (GPU) Examples:
+  - Deep Learning/CUDA (GPU) Examples:
     - Transformers example: examples/dl/transformers.md
+    - Cuda example: examples/dl/cuda.md
     - MNIST example: examples/dl/mnist.md
   - Scientific Computing (CPU) Examples:
     - DNA sequencing: examples/sc/dna.md
