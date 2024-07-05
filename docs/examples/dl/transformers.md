@@ -1,11 +1,11 @@
 
-# Cuda example
+# Transformers example
 
-This example shows how you can run a normal dl training pipelie with the transformers library on one of the clusters GPU nodes. We expected that you already have access and know how to login.
+This example demonstrates how to execute a standard deep learning training pipeline using the transformers library on one of the GPU nodes in the cluster. It is assumed that you already have access and know how to log in.
 
 ## 0. Git clone the guides repo with the examples
 
-To facilitate the demonstration we already prepared the code and scripts necessary, your job is to first run and then understand by looking into more detail.
+To facilitate the demonstration, we have prepared the necessary code and scripts in a repository. Your task is to run the code and then delve into it to understand the details more thoroughly.
 
 ```bash
 $ git clone https://github.com/ieeta-pt/HPC-guides.git
@@ -14,26 +14,26 @@ $ cd HPC-guides/examples/transformers
 
 ## 1. Preprare the environment
 
-First step is the preparation of the development enviroment which in this case would be to load python, creating a virtual environment and install the dependencies.
+The first step is to prepare the development environment. This involves loading Python, creating a virtual environment, and installing the dependencies.
 
 ```bash
 $ module load python
 $ python -m venv virtual-venv
 $ source virtual-venv/bin/activate
-$ pip install --upgrade pip
-$ pip install transformers accelerate evaluate datasets scikit-learn
+(virtual-venv)$ pip install --upgrade pip
+(virtual-venv)$ pip install transformers accelerate evaluate datasets scikit-learn
 ```
 
 ## 2. Submit the job
 
-The `hf_classification_trainer.py` contains the barebone code to train a bert base model in a classification task using the yelp dataset.
-`hf_trainer.sh` corresponds to the lunch script that has the SBATCH directives for resources aquisition. Note that in the lunch script
-were are specifically requestion for a A6000 gpu (`--gres=gpu:nvidia-rtx-a6000:1 `).
+The hf_classification_trainer.py file contains the essential code needed to train a BERT base model for a classification task using the Yelp dataset. hf_trainer.sh is the launch script that includes SBATCH directives for acquiring resources. Specifically, we are requesting one A6000 GPU (--gres=gpu:nvidia-rtx-a6000:1).
 
 ```bash
-$ sbatch hf_trainer.sh
+(virtual-venv)$ sbatch hf_trainer.sh
 Submitted batch job 95
 ```
+
+After submitting the job, you can check its status in the queue by running squeue:
 
 ```bash
 $ squeue
@@ -41,18 +41,9 @@ $ squeue
                 94       gpu hf_train tiagoalm  R       0:02      1 dl-srv-03
 ```
 
-Check your directly for the output file and cat:
+Here you can see that your job (94) is running (ST = R) and has been allocated to the node dl-srv-03, which contains the A6000 GPU.
 
-```bash
-$ ll
-total 24
-drwxr-xr-x 3 tiagoalmeida students 4096 Jul  5 16:12 ./
-drwxr-xr-x 4 tiagoalmeida students 4096 Jul  5 16:11 ../
--rw-r--r-- 1 tiagoalmeida students 2425 Jul  5 16:12 hf_classification_trainer.py
--rw-r--r-- 1 tiagoalmeida students 2152 Jul  5 16:13 hf_trainer-94.out
--rw-r--r-- 1 tiagoalmeida students  643 Jul  5 16:11 hf_trainer.sh
-drwxr-xr-x 2 tiagoalmeida students 4096 Jul  5 16:12 output_dir/
-```
+To monitor the progress of your training, inspect the output file specified in the launch script:
 
 ```bash
 $ cat hf_trainer-94.out 
