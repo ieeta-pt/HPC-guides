@@ -134,6 +134,7 @@ $ pip install transformers accelerate evaluate datasets scikit-learn
 <code>hf_trainer.sh</code> corresponds to the lunch script that has the SBATCH directives for resources aquisition. Note that in the lunch script
 were are specifically requestion for a A6000 gpu (<code>--gres=gpu:nvidia-rtx-a6000:1</code>).</p>
 <pre><code class="language-bash">$ sbatch hf_trainer.sh
+Submitted batch job 95
 </code></pre>
 <pre><code class="language-bash">$ squeue
              JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
