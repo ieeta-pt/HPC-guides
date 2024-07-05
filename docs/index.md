@@ -19,6 +19,8 @@ For users seeking more profound insights or for those new to this domain, we hav
 Furthermore, to aid in acclimatization with the HPC stack, we have also included some practical examples:
 
 - **Deep Learning (GPU) Examples**
+    * [Transformers](examples/dl/transformers.md)
+    * [Cuda example](examples/dl/cuda.md)
     * [MNIST Example](examples/dl/mnist.md)
 - **Scientific Computing (CPU) Examples**
     * [DNA Sequencing Example](examples/sc/dna.md)
