@@ -1,4 +1,4 @@
-# Welcome to documentation for Pleiades
+# Welcome to the Pleiades documentation 
 
 This documentation is designed to provide users with essential information and instructions to effectively utilize the resources at IEETA. Whether you're new to HPC or an experienced user, this guide aims to help you understand how to access, manage jobs, and leverage the available resources in the most efficient way.
 
