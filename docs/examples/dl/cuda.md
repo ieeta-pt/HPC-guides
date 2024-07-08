@@ -16,11 +16,13 @@ $ cd HPC-guides/examples/cuda
 The initial step involves setting up the development environment, which in this case means loading the GCC compiler and CUDA libraries.
 
 ```bash
-$ module load gcc/11
+$ module load gcc
 $ module load cuda
 ```
 
-We load GCC version 11 rather than 12 because the currently installed CUDA version (11.8) recommends using GCC 11.
+Currently there are two versions of CUDA installed (12.1 and 11.8). By defualt the latest one is always loaded when a version is not specified.
+
+Note that if you want to run CUDA 11.8 you aldo need to use gcc 11 due to compatibility issues from CUDA.
 
 ## 2. Compile the cuda program
 
