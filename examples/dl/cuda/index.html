@@ -125,10 +125,11 @@ $ cd HPC-guides/examples/cuda
 </code></pre>
 <h2 id="1-preprare-the-environment">1. Preprare the environment</h2>
 <p>The initial step involves setting up the development environment, which in this case means loading the GCC compiler and CUDA libraries.</p>
-<pre><code class="language-bash">$ module load gcc/11
+<pre><code class="language-bash">$ module load gcc
 $ module load cuda
 </code></pre>
-<p>We load GCC version 11 rather than 12 because the currently installed CUDA version (11.8) recommends using GCC 11.</p>
+<p>Currently there are two versions of CUDA installed (12.1 and 11.8). By defualt the latest one is always loaded when a version is not specified.</p>
+<p>Note that if you want to run CUDA 11.8 you aldo need to use gcc 11 due to compatibility issues from CUDA.</p>
 <h2 id="2-compile-the-cuda-program">2. Compile the cuda program</h2>
 <p>To compile the CUDA program, simply use the NVCC compiler:</p>
 <pre><code class="language-bash">$ nvcc vector_addition.cu -o vector_addition
