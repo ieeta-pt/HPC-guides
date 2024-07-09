@@ -128,7 +128,7 @@ $ cd HPC-guides/examples/cuda
 <pre><code class="language-bash">$ module load gcc
 $ module load cuda
 </code></pre>
-<p>Currently there are two versions of CUDA installed (12.1 and 11.8). By defualt the latest one is always loaded when a version is not specified.</p>
+<p>Currently there are two versions of CUDA installed (12.1 and 11.8). By default the latest one is always loaded when a version is not specified.</p>
 <p>Note that if you want to run CUDA 11.8 you aldo need to use gcc 11 due to compatibility issues from CUDA.</p>
 <h2 id="2-compile-the-cuda-program">2. Compile the cuda program</h2>
 <p>To compile the CUDA program, simply use the NVCC compiler:</p>
@@ -136,7 +136,7 @@ $ module load cuda
 </code></pre>
 <h2 id="3-submit-the-job">3. Submit the job</h2>
 <p>The launch_cuda.sh script contains the necessary code to submit the Slurm job while requesting a GPU.</p>
-<pre><code class="language-bash">$ sbatch lunch_cuda.sh
+<pre><code class="language-bash">$ sbatch launch_cuda.sh
 Submitted batch job 93
 </code></pre>
 <p>Check your directory for the output file and view its contents:</p>
