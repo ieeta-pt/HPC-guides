@@ -20,7 +20,7 @@ $ module load gcc
 $ module load cuda
 ```
 
-Currently there are two versions of CUDA installed (12.1 and 11.8). By defualt the latest one is always loaded when a version is not specified.
+Currently there are two versions of CUDA installed (12.1 and 11.8). By default the latest one is always loaded when a version is not specified.
 
 Note that if you want to run CUDA 11.8 you aldo need to use gcc 11 due to compatibility issues from CUDA.
 
@@ -37,7 +37,7 @@ $ nvcc vector_addition.cu -o vector_addition
 The launch_cuda.sh script contains the necessary code to submit the Slurm job while requesting a GPU.
 
 ```bash
-$ sbatch lunch_cuda.sh
+$ sbatch launch_cuda.sh
 Submitted batch job 93
 ```
 
