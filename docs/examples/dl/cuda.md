@@ -49,7 +49,7 @@ total 808
 drwxr-xr-x 2 tiagoalmeida students   4096 Jul  5 15:49 ./
 drwxr-xr-x 3 tiagoalmeida students   4096 Jul  5 15:48 ../
 -rw-r--r-- 1 tiagoalmeida students    248 Jul  5 15:49 Cuda-93.out
--rw-r--r-- 1 tiagoalmeida students    504 Jul  5 15:48 lunch_cuda.sh
+-rw-r--r-- 1 tiagoalmeida students    504 Jul  5 15:48 launch_cuda.sh
 -rwxr-xr-x 1 tiagoalmeida students 803936 Jul  5 15:48 vector_addition*
 -rw-r--r-- 1 tiagoalmeida students   2051 Jul  5 15:48 vector_addition.cu
 $
