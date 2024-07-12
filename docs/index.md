@@ -14,9 +14,9 @@ For users seeking more profound insights or for those new to this domain, we hav
 
 * **Detailed Material**: 
     - [Cluster Nodes](detail_material/nodes.md)
-    - [Software packages](detail_material/software_packages.md)
-    - [Job management](detail_material/job_management.md)
-    - [Account management](detail_material/account_management.md)
+    - [Software packages](detail_material/software_packages.md) **TODO**
+    - [Job management](detail_material/job_management.md) **TODO**
+    - [Account management](detail_material/account_management.md) **TODO**
 
 Furthermore, to aid in acclimatization with the HPC stack, we have also included some practical examples:
 
