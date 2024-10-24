@@ -33,6 +33,12 @@ We are currently in a testing phase, and nodes will be gradually added or migrat
 
 ## CPU Nodes:
 
+### cpu-srv-01:
+  - Type: SuperMicro Server
+  - CPU: AMD EPYC 9354P (32/64)
+  - RAM: 768GB (DDR5)
+  - Temporal local storage: None at the moment
+
 (More to be added in the future)
 
 ## Login Node:
