@@ -39,6 +39,12 @@ We are currently in a testing phase, and nodes will be gradually added or migrat
   - RAM: 768GB (DDR5)
   - Temporal local storage: None at the moment
 
+### cpu-srv-02:
+  - Type: Dell PowerEdge R730
+  - CPU: Intel® Xeon® E5-2670 (12/24)
+  - RAM: 192GB (DDR5)
+  - Temporal local storage: None at the moment
+
 (More to be added in the future)
 
 ## Login Node:
