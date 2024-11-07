@@ -162,8 +162,12 @@ deactivate
 1. Specification of the resources needed and some job information;
 2. Comands that will be executed on the destination node.</p>
 <p>As an example, in the first part of the script, we define the job name, the output file and the requested resources (1 GPU, 2 CPUs and 4GB RAM). Then, in the second part, we define the tasks of the job.</p>
-<p>By default since no partition was defined the job will run under the default partitaion that in this cluster is the gpu partition, you can check which partitions and nodes are available with:</p>
+<p>Note that the cluster is configured to use the CPU partition by default. Therefore, when requesting GPU resources, you must explicitly specify the GPU partition using --partition=gpu.</p>
+<p>To view available partitions and nodes, use:</p>
 <pre><code class="language-bash">  $ sinfo
+</code></pre>
+<p>For a more detailed view of all system resources, use:</p>
+<pre><code class="language-bash">  $ cluster-info
 </code></pre>
 <h2 id="4-submit-the-job">4. Submit the job</h2>
 <p>To submit the job, you should run the following command:</p>
