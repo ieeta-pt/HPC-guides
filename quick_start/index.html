@@ -124,7 +124,7 @@
 <p>By default, upon logging in, you will land on our <strong>login</strong> node in your home directory, which is located at <code>/data/home</code>. This is a network storage partition visible to all cluster nodes.</p>
 <p>The <strong>login</strong> node is where you should prepare your code in order to submit jobs to run on the <strong>worker</strong> nodes of the cluster. The worker nodes are equipped with powerful resources. Currently, we have:</p>
 <ul>
-<li><strong>CPU nodes</strong>: Nodes with a high amount of RAM and faster CPUs. <em>Currently not added to the cluster yet</em></li>
+<li><strong>CPU nodes</strong>: Nodes with a high amount of RAM and faster CPUs. </li>
 <li><strong>GPU nodes</strong>: Nodes equipped with GPUs and more modest CPU/RAM configurations.</li>
 </ul>
 <p>For more information about each node check the <a href="../detail_material/nodes/">nodes page</a>.</p>
@@ -150,6 +150,7 @@ $ source virtual-venv/bin/activate
 #SBATCH --cpus-per-task=2                 # cpu-cores per task (&gt;1 if multi-threaded tasks)
 #SBATCH --gres=gpu:1                      # number of gpus per node
 #SBATCH --mem=4G                          # Total amount of RAM requested
+#SBATCH --partition=gpu                   # The queue where to submit the job
 
 source /virtual-venv/bin/activate # If you have your venv activated when you submit the job, then you do not need to activate/deactivate
 
