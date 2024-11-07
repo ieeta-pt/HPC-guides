@@ -14,7 +14,7 @@ By default, upon logging in, you will land on our **login** node in your home di
 
 The **login** node is where you should prepare your code in order to submit jobs to run on the **worker** nodes of the cluster. The worker nodes are equipped with powerful resources. Currently, we have:
 
-- **CPU nodes**: Nodes with a high amount of RAM and faster CPUs. *Currently not added to the cluster yet*
+- **CPU nodes**: Nodes with a high amount of RAM and faster CPUs. 
 - **GPU nodes**: Nodes equipped with GPUs and more modest CPU/RAM configurations.
 
 For more information about each node check the [nodes page](detail_material/nodes.md).
@@ -51,6 +51,7 @@ After setting up your runtime environment, you should create a SLURM job script 
 #SBATCH --cpus-per-task=2                 # cpu-cores per task (>1 if multi-threaded tasks)
 #SBATCH --gres=gpu:1                      # number of gpus per node
 #SBATCH --mem=4G                          # Total amount of RAM requested
+#SBATCH --partition=gpu                   # The queue where to submit the job
 
 source /virtual-venv/bin/activate # If you have your venv activated when you submit the job, then you do not need to activate/deactivate
 
