@@ -45,6 +45,12 @@ We are currently in a testing phase, and nodes will be gradually added or migrat
   - RAM: 192GB
   - Temporal local storage: None at the moment
 
+### cpu-srv-03:
+  - Type: SuperMicro Server
+  - CPU: AMD EPYC 9355P (32/64)
+  - RAM: 256GB
+  - Temporal local storage: 512GB nvme SSD (/tmp/your-job)
+
 (More to be added in the future)
 
 ## Login Node:
