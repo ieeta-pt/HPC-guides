@@ -1,32 +1,32 @@
 # Cluster Nodes
 
-We are currently in a testing phase, and nodes will be gradually added or migrated to the cluster.
+Nodes may change or be added to the cluster.  Use cluster commands to get up-to-date info.
 
 ## GPU Nodes:
 
-### dl-srv-02:
+### gpu-srv-02:
   - Type: HP-workstation
   - CPU: i7-12700 (12C)
   - RAM: 16GB
   - GPU-0: A2000
-  - Temporal local storage: 512GB nvme SSD (/tmp/your-job)
+  - Temporary local storage: 512GB nvme SSD (/tmp/your-job)
   - Slurm GPU resource name: **nvidia-rtx-a2000**
 
-### dl-srv-03:
+### gpu-srv-03:
   - Type: Asus Server
   - CPU: EPYC 7543 (32C/64T)
   - RAM: 256GB
   - GPU-0: A6000
   - GPU-1: A6000
-  - Temporal local storage: 512GB nvme SSD (/tmp/your-job)
+  - Temporary local storage: 512GB nvme SSD (/tmp/your-job)
   - Slurm GPU resource name: **nvidia-rtx-a6000**
 
-### dl-srv-04:
+### gpu-srv-04:
   - Type: AlianWare workstation
   - CPU: Ryzen 9 5900 (12C/24T)
   - RAM: 96GB
   - GPU-0: RTX 4070
-  - Temporal local storage: NONE
+  - Temporary local storage: NONE
   - Slurm GPU resource name: **nvidia-rtx-4070**
 
 (More to be added in the future)
@@ -37,19 +37,19 @@ We are currently in a testing phase, and nodes will be gradually added or migrat
   - Type: SuperMicro Server
   - CPU: AMD EPYC 9354P (32/64)
   - RAM: 768GB (DDR5)
-  - Temporal local storage: None at the moment
+  - Temporary local storage: None at the moment
 
 ### cpu-srv-02:
   - Type: Dell PowerEdge R730
   - CPU: Intel® Xeon® E5-2670 (12/24)
   - RAM: 192GB
-  - Temporal local storage: None at the moment
+  - Temporary local storage: None at the moment
 
 ### cpu-srv-03:
   - Type: SuperMicro Server
   - CPU: AMD EPYC 9355P (32/64)
   - RAM: 256GB
-  - Temporal local storage: 512GB nvme SSD (/tmp/your-job)
+  - Temporary local storage: 512GB nvme SSD (/tmp/your-job)
 
 (More to be added in the future)
 
