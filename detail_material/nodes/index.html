@@ -61,11 +61,11 @@
     <ul class="current">
     <li class="toctree-l2"><a class="reference internal" href="#gpu-nodes">GPU Nodes:</a>
         <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#dl-srv-02">dl-srv-02:</a>
+    <li class="toctree-l3"><a class="reference internal" href="#gpu-srv-02">gpu-srv-02:</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#dl-srv-03">dl-srv-03:</a>
+    <li class="toctree-l3"><a class="reference internal" href="#gpu-srv-03">gpu-srv-03:</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#dl-srv-04">dl-srv-04:</a>
+    <li class="toctree-l3"><a class="reference internal" href="#gpu-srv-04">gpu-srv-04:</a>
     </li>
         </ul>
     </li>
@@ -131,34 +131,34 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="cluster-nodes">Cluster Nodes</h1>
-<p>We are currently in a testing phase, and nodes will be gradually added or migrated to the cluster.</p>
+<p>Nodes may change or be added to the cluster.  Use cluster commands to get up-to-date info.</p>
 <h2 id="gpu-nodes">GPU Nodes:</h2>
-<h3 id="dl-srv-02">dl-srv-02:</h3>
+<h3 id="gpu-srv-02">gpu-srv-02:</h3>
 <ul>
 <li>Type: HP-workstation</li>
 <li>CPU: i7-12700 (12C)</li>
 <li>RAM: 16GB</li>
 <li>GPU-0: A2000</li>
-<li>Temporal local storage: 512GB nvme SSD (/tmp/your-job)</li>
+<li>Temporary local storage: 512GB nvme SSD (/tmp/your-job)</li>
 <li>Slurm GPU resource name: <strong>nvidia-rtx-a2000</strong></li>
 </ul>
-<h3 id="dl-srv-03">dl-srv-03:</h3>
+<h3 id="gpu-srv-03">gpu-srv-03:</h3>
 <ul>
 <li>Type: Asus Server</li>
 <li>CPU: EPYC 7543 (32C/64T)</li>
 <li>RAM: 256GB</li>
 <li>GPU-0: A6000</li>
 <li>GPU-1: A6000</li>
-<li>Temporal local storage: 512GB nvme SSD (/tmp/your-job)</li>
+<li>Temporary local storage: 512GB nvme SSD (/tmp/your-job)</li>
 <li>Slurm GPU resource name: <strong>nvidia-rtx-a6000</strong></li>
 </ul>
-<h3 id="dl-srv-04">dl-srv-04:</h3>
+<h3 id="gpu-srv-04">gpu-srv-04:</h3>
 <ul>
 <li>Type: AlianWare workstation</li>
 <li>CPU: Ryzen 9 5900 (12C/24T)</li>
 <li>RAM: 96GB</li>
 <li>GPU-0: RTX 4070</li>
-<li>Temporal local storage: NONE</li>
+<li>Temporary local storage: NONE</li>
 <li>Slurm GPU resource name: <strong>nvidia-rtx-4070</strong></li>
 </ul>
 <p>(More to be added in the future)</p>
@@ -168,21 +168,21 @@
 <li>Type: SuperMicro Server</li>
 <li>CPU: AMD EPYC 9354P (32/64)</li>
 <li>RAM: 768GB (DDR5)</li>
-<li>Temporal local storage: None at the moment</li>
+<li>Temporary local storage: None at the moment</li>
 </ul>
 <h3 id="cpu-srv-02">cpu-srv-02:</h3>
 <ul>
 <li>Type: Dell PowerEdge R730</li>
 <li>CPU: Intel® Xeon® E5-2670 (12/24)</li>
 <li>RAM: 192GB</li>
-<li>Temporal local storage: None at the moment</li>
+<li>Temporary local storage: None at the moment</li>
 </ul>
 <h3 id="cpu-srv-03">cpu-srv-03:</h3>
 <ul>
 <li>Type: SuperMicro Server</li>
 <li>CPU: AMD EPYC 9355P (32/64)</li>
 <li>RAM: 256GB</li>
-<li>Temporal local storage: 512GB nvme SSD (/tmp/your-job)</li>
+<li>Temporary local storage: 512GB nvme SSD (/tmp/your-job)</li>
 </ul>
 <p>(More to be added in the future)</p>
 <h2 id="login-node">Login Node:</h2>
