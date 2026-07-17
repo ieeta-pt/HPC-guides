@@ -1,8 +1,8 @@
 # Quick start
 
-In this page you can find a quick start guide on how to use IEETA cluster (Pleiades). 
+In this page you can find a quick start guide on how to use IEETA HPC cluster (Pleiades). 
 
-## 1. Access IEETA cluster (Pleiades)
+## 1. Access IEETA HPC cluster (Pleiades)
 
 Access the cluster via SSH using the credentials provided to you by email. If you do not have access yet, please refer to the [How to Access](how_to_access.md) page.
 
@@ -10,14 +10,15 @@ Access the cluster via SSH using the credentials provided to you by email. If yo
 $ ssh user@pleiades.ieeta.pt
 ```
 
-By default, upon logging in, you will land on our **login** node in your home directory, which is located at `/data/home`. This is a network storage partition visible to all cluster nodes.
+By default, upon logging in, you will land on our **login** node in your home directory, which is located under `/data/home/`. This is a NFS network storage partition visible to all cluster nodes.
 
 The **login** node is where you should prepare your code in order to submit jobs to run on the **worker** nodes of the cluster. The worker nodes are equipped with powerful resources. Currently, we have:
 
-- **CPU nodes**: Nodes with a high amount of RAM and faster CPUs. 
+- **CPU nodes**: Nodes with a high amount of RAM and faster CPUs.
 - **GPU nodes**: Nodes equipped with GPUs and more modest CPU/RAM configurations.
 
-For more information about each node check the [nodes page](detail_material/nodes.md).
+Run the `cluster-info` command for an up-to-date summary of resources on each node.
+(The [nodes page](detail_material/nodes.md) is probably very outdated!)
 
 ## 2. Prepare your software environment
 
@@ -90,3 +91,11 @@ You can check the job status using the following command:
 ```bash
 $ squeue
 ```
+
+## To learn more
+
+Our cluster currently runs the [Qlustar OS](https://qlustar.com/),
+which uses SLURM job management and SPACK software management.
+
+You can find general help as well as specific details about using this system in the
+[Qlustar HPC User Manual](https://docs.qlustar.com/Qlustar/14/HPCstack/hpc-user-manual.html).
