@@ -54,13 +54,15 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="#">Quick Start</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#1-access-ieeta-cluster-pleiades">1. Access IEETA cluster (Pleiades)</a>
+    <li class="toctree-l2"><a class="reference internal" href="#1-access-ieeta-hpc-cluster-pleiades">1. Access IEETA HPC cluster (Pleiades)</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#2-prepare-your-software-environment">2. Prepare your software environment</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#3-create-your-slurm-job-script">3. Create your SLURM job script</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#4-submit-the-job">4. Submit the job</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#to-learn-more">To learn more</a>
     </li>
     </ul>
                 </li>
@@ -116,18 +118,19 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="quick-start">Quick start</h1>
-<p>In this page you can find a quick start guide on how to use IEETA cluster (Pleiades). </p>
-<h2 id="1-access-ieeta-cluster-pleiades">1. Access IEETA cluster (Pleiades)</h2>
+<p>In this page you can find a quick start guide on how to use IEETA HPC cluster (Pleiades). </p>
+<h2 id="1-access-ieeta-hpc-cluster-pleiades">1. Access IEETA HPC cluster (Pleiades)</h2>
 <p>Access the cluster via SSH using the credentials provided to you by email. If you do not have access yet, please refer to the <a href="../how_to_access/">How to Access</a> page.</p>
 <pre><code class="language-bash">$ ssh user@pleiades.ieeta.pt
 </code></pre>
-<p>By default, upon logging in, you will land on our <strong>login</strong> node in your home directory, which is located at <code>/data/home</code>. This is a network storage partition visible to all cluster nodes.</p>
+<p>By default, upon logging in, you will land on our <strong>login</strong> node in your home directory, which is located under <code>/data/home/</code>. This is a NFS network storage partition visible to all cluster nodes.</p>
 <p>The <strong>login</strong> node is where you should prepare your code in order to submit jobs to run on the <strong>worker</strong> nodes of the cluster. The worker nodes are equipped with powerful resources. Currently, we have:</p>
 <ul>
-<li><strong>CPU nodes</strong>: Nodes with a high amount of RAM and faster CPUs. </li>
+<li><strong>CPU nodes</strong>: Nodes with a high amount of RAM and faster CPUs.</li>
 <li><strong>GPU nodes</strong>: Nodes equipped with GPUs and more modest CPU/RAM configurations.</li>
 </ul>
-<p>For more information about each node check the <a href="../detail_material/nodes/">nodes page</a>.</p>
+<p>Run the <code>cluster-info</code> command for an up-to-date summary of resources on each node.
+(The <a href="../detail_material/nodes/">nodes page</a> is probably very outdated!)</p>
 <h2 id="2-prepare-your-software-environment">2. Prepare your software environment</h2>
 <p>The next step is to prepare your environment to run/build your application. We recommend using a virtual environment so that you can install any package locally. First, load the Python module.</p>
 <pre><code class="language-bash">$ module load python
@@ -177,6 +180,11 @@ Submitted batch job 144
 <p>You can check the job status using the following command:</p>
 <pre><code class="language-bash">$ squeue
 </code></pre>
+<h2 id="to-learn-more">To learn more</h2>
+<p>Our cluster currently runs the <a href="https://qlustar.com/">Qlustar OS</a>,
+which uses SLURM job management and SPACK software management.</p>
+<p>You can find general help as well as specific details about using this system in the
+<a href="https://docs.qlustar.com/Qlustar/14/HPCstack/hpc-user-manual.html">Qlustar HPC User Manual</a>.</p>
               
             </div>
           </div><footer>
