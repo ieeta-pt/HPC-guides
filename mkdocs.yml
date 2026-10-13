@@ -19,9 +19,11 @@ nav:
   - Scientific Computing (CPU) Examples:
     - DNA sequencing: examples/sc/dna.md
     - R: examples/sc/r.md
+  - Administration:
+    - SPACK module instalation: spack/install-and-update.md
     
 theme: readthedocs
 
-site_author: Tiago Almeida (tiagomeloalmeida@ua.pt)
-copyright: Copyright 2024, Pelouro de Infraestrutura - IEETA UA.
+site_author: Tiago Almeida (tiagomeloalmeida@ua.pt), Luís Afonso (luiscarlos.c.afonso@ua.pt)
+copyright: Copyright 2026, Pelouro de Infraestrutura - IEETA UA.
 
