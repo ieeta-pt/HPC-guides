@@ -8,18 +8,19 @@ SPACK environments are used to segregate the main production environment from ac
 
 Installing a package is a 3-step job from adding it to installing it in production. It starts with using the pre-existing enviroment (ubuntu24-stack) to add the package:
 
-`bash
+```bash
 spack -e /apps/local/spack/environments/ubuntu24-stack add ...
-`
+```
 
 Then we need to concretize the package into the list using:
 
-`bash
+```bash
 spack -e /apps/local/spack/environments/ubuntu24-stack concretize -f
-`
+```
+
 Then once everything is done, we promote it to production and install it using:
 
-`bash
+```bash
 spack -e /apps/local/spack/environments/ubuntu24-stack install -j16
 spack module lmod refresh -y
-`
+```
