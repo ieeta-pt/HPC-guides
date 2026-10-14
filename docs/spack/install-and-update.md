@@ -24,3 +24,7 @@ Then once everything is done, we promote it to production and install it using:
 spack -e /apps/local/spack/environments/ubuntu24-stack install -j16
 spack module lmod refresh -y
 ```
+
+# References
+
+This was taken from the [SPACK documentation](https://spack.readthedocs.io/en/latest/environments.html) about environments.
